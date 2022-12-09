@@ -86,9 +86,9 @@ export default {
             let filteredValue = value.match(/[\d+]/g);
             this.innerValue = filteredValue ? filteredValue.join("") : "";
             this.updateMaskData();
-            this.$nextTick(function(){
-                setTimeout(this.setFocusToEnd.bind(this),0);
-            });
+            // this.$nextTick(function(){
+            //     setTimeout(this.setFocusToEnd.bind(this),0);
+            // });
         },
         setFocusToEnd: function(){
             const length = this.$refs.phoneMask.$el.value.length;
