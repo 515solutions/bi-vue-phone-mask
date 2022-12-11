@@ -1,10 +1,10 @@
 {
   "name": "bi-vue-phone-mask",
   "description": "Vue International Phone Mask Input",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "author": "Raman Deep Bajwa <dbajwa763@gmail.com>",
-  "homepage": "https://github.com/binfotech/bi-vue-phone-mask",
+  "homepage": "https://github.com/regiustech/bi-vue-phone-mask",
   "license": "MIT",
   "keywords": ["Vue","VueJS","phone","input","mask","phone mask"],
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/binfotech/bi-vue-phone-mask.git"
+    "url": "https://github.com/regiustech/bi-vue-phone-mask.git"
   },
   "files": ["src/*","*.js","*.json","*.md"],
   "main": "./src/index.js",
