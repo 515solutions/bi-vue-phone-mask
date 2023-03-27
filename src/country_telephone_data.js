@@ -9,7 +9,7 @@ const addCountryCodeToMask = (mask,code) => {
 const CanadaAreaCodes = ["204","236","249","250","289","306","343","365","387","403","416","418","431","437","438","450","506","514","519","548","579","581","587","604","613","639","647","672","705","709","742","778","780","782","807","819","825","867","873","902","905"];
 export const allCountries = [
     ["Afghanistan (‫افغانستان‬‎)","af","93","+..-..-...-...."],
-    ["Åland Islands","ax","358",""],
+    ["Åland Islands","ax","358","... ... ...."],
     ["Albania (Shqipëri)","al","355","+...(...)...-..."],
     ["Algeria (‫الجزائر‬‎)","dz","213","+...-..-...-...."],
     ["American Samoa","as","1684","+.(...)...-...."],
@@ -23,8 +23,8 @@ export const allCountries = [
     ["Aruba","aw","297","+...-...-...."],
     ["Australia","au","61","+.. ... ... ..."],
     ["Austria (Österreich)","at","43","+..(...)...-...."],
-    ["Azerbaijan (Azərbaycan)","az","994","+...-..-...-..-.."],
-    ["Bahamas","bs","1242","+.(...)...-...."],
+    ["Azerbaijan (Azərbaycan)","az","994","+...-..-... ...."],
+    ["Bahamas","bs","1242","+. ... ... ...."],
     ["Bahrain (‫البحرين‬‎)","bh","973","+...-....-...."],
     ["Bangladesh (বাংলাদেশ)","bd","880","+...-..-...-..."],
     ["Barbados","bb","1246","+.(...)...-...."],
@@ -91,7 +91,7 @@ export const allCountries = [
     ["Gabon","ga","241","+...-.-..-..-.."],
     ["Gambia","gm","220","+...(...)..-.."],
     ["Georgia (საქართველო)","ge","995","+...(...)...-..."],
-    ["Germany (Deutschland)","de","49","+.. ... ......."],
+    ["Germany (Deutschland)","de","49","+.. ... .... ...."],
     ["Ghana (Gaana)","gh","233","+...(...)...-..."],
     ["Gibraltar","gi","350","+...-...-....."],
     ["Greece (Ελλάδα)","gr","30","+..(...)...-...."],
@@ -117,7 +117,7 @@ export const allCountries = [
     ["Ireland","ie","353","+... .. ......."],
     ["Isle of Man","im","44",""],
     ["Israel (‫ישראל‬‎)","il","972","+...-.-...-...."],
-    ["Italy (Italia)","it","39","+.. ... ......",0],
+    ["Italy (Italia)","it","39","+.. ... ... ...."],
     ["Jamaica","jm","1876","+.(...)...-...."],
     ["Japan (日本)","jp","81","+.. ... .. ...."],
     ["Jersey","je","44",""],
@@ -250,14 +250,14 @@ export const allCountries = [
     ["Uruguay","uy","598","+...-.-...-..-.."],
     ["Uzbekistan (Oʻzbekiston)","uz","998","+...-..-...-...."],
     ["Vanuatu","vu","678","+...-....."],
-    ["Vatican City (Città del Vaticano)","va","39","+.. .. .... ....",1],
+    ["Vatican City (Città del Vaticano)","va","379","+.. .. .... ....",1],
     ["Venezuela","ve","58","+..(...)...-...."],
     ["Vietnam (Việt Nam)","vn","84","+..-..-....-..."],
     ["Wallis and Futuna","wf","681","+...-..-...."],
     ["Western Sahara","eh","212","+...-..-...."],
     ["Yemen (‫اليمن‬‎)","ye","967","+...-.-...-..."],
     ["Zambia","zm","260","+...-..-...-...."],
-    ["Zimbabwe","zw","263","+...-.-......"]
+    ["Zimbabwe","zw","263","+... .. ... ..."]
 ];
 export const findFirstCountryByCode = code => {
     let filteredCode = code.match(/\d/g).join("");
